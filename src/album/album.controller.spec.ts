@@ -5,7 +5,7 @@ import { AlbumService } from './album.service';
 describe('Album Controller', () => {
   let controller: AlbumController
   let service: AlbumService
-
+ 
   const mockAlbumService = {
     findAll: () => [{
       id: 1,
